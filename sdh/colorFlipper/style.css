@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:0 20px;
+  box-shadow:0 10px 10px #ced4da;
+  font-weight: bold;
+}
+nav h4 {
+  color:skyblue;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  display: inline-block;
+  padding:20px;
+}
+
+main {
+  height:calc(100vh - 56px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+main h2 {
+  padding:40px 80px;
+  border-radius: 20px;
+  background-color:#333;
+  line-height: 1.5;
+  font-size:30px;
+  color:#fff;
+}
+main button {
+  margin-top:30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding:10px 30px;
+  font-size:20px;
+  text-transform: uppercase;
+  background-color:#fff;
+  cursor: pointer;
+}
